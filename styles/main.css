@@ -16,6 +16,10 @@ body {
     color: #40071D;
 }
 
+h1 {
+    color: #40071D;
+}
+
 form {
     display: flex;
     flex-flow: column wrap;
@@ -28,7 +32,7 @@ input, textarea, select {
     border: 2px solid #9554A6;
     border-radius: 5px;
     padding: 0 10px;
-    margin: 0;
+    margin: 0 0 20px 0;
     background: none;
 }
 
@@ -40,11 +44,6 @@ input:focus, textarea:focus, select:focus {
 input {
     height: 2.5em;
     vertical-align: middle;
-}
-
-textarea {
-    display: block;
-    overflow: auto;
 }
 
 .submit-buttons {
